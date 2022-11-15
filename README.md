@@ -1,7 +1,7 @@
-# Mental Health on TechWorkplaces
+# Mental Health on Tech Workplaces
 
 # Our Team
-![Teams](https://img.shields.io/badge/Our%20Team-Team%203-blueviolet)
+![Teams](https://img.shields.io/badge/Our%20Team-Team%203-blue)
 
 # Business Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-16%20November%202022-green)
