@@ -30,7 +30,7 @@ Banyak hasil penelitian yang mengungkapkan bahwa CRISP-DM adalah datamining mode
 3. Data Preparation
 4. Modeling
 5. Evaluation
-6.Deployment
+6. Deployment
 
 ## Tujuan Teknis dan Kriteria Kesuksesan
 
@@ -44,7 +44,7 @@ Timeline mini riset tentang mental health on tech workspace mengikuti tahapan da
 6. Data Preparation
 7. Modeling
 8. Evaluation
-![Arsitektur_Assets](Assets/Timeline.png)
+![Timeline_Assets](Assets/Timeline.png)
 
 # Data Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-23%20November%202022-green)
