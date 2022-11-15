@@ -7,7 +7,7 @@
 <img src="Assets/ImamFirdaus.png" width="128"/>
 <img src="Assets/IfanyDewiTustianti.png" width="128"/>
 <img src="Assets/MFarhanFU.png" width="128"/>
-<img src="Assets/RizaFajarMaulana.png" width="128"/>
+<img src="Assets/UserDefault.png" width="128"/>
 <img src="Assets/UserDefault.png" width="128"/>
 
 <br>
