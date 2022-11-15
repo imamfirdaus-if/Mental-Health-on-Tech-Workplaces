@@ -4,11 +4,11 @@
 ![Teams](https://img.shields.io/badge/Our%20Team-Team%203-blue)
 <div align='center'>
 
-<img src="assets/ImamFirdaus.png" width="128"/>
-<img src="assets/teams/IfanyDewiTustianti.png" width="128"/>
-<img src="assets/teams/MFarhanFU.png" width="128"/>
-<img src="assets/teams/UserDefault.png" width="128"/>
-<img src="assets/teams/UserDefault.png" width="128"/>
+<img src="Assets/ImamFirdaus.png" width="128"/>
+<img src="Assets/teams/IfanyDewiTustianti.png" width="128"/>
+<img src="Assets/teams/MFarhanFU.png" width="128"/>
+<img src="Assets/teams/UserDefault.png" width="128"/>
+<img src="Assets/teams/UserDefault.png" width="128"/>
 
 <br>
 
