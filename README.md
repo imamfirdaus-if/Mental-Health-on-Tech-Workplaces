@@ -5,10 +5,10 @@
 <div align='center'>
 
 <img src="Assets/ImamFirdaus.png" width="128"/>
-<img src="Assets/teams/IfanyDewiTustianti.png" width="128"/>
-<img src="Assets/teams/MFarhanFU.png" width="128"/>
-<img src="Assets/teams/UserDefault.png" width="128"/>
-<img src="Assets/teams/UserDefault.png" width="128"/>
+<img src="Assets/IfanyDewiTustianti.png" width="128"/>
+<img src="Assets/MFarhanFU.png" width="128"/>
+<img src="Assets/UserDefault.png" width="128"/>
+<img src="Assets/UserDefault.png" width="128"/>
 
 <br>
 
