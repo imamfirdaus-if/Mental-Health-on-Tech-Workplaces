@@ -35,6 +35,15 @@ Banyak hasil penelitian yang mengungkapkan bahwa CRISP-DM adalah datamining mode
 ## Tujuan Teknis dan Kriteria Kesuksesan
 
 ## Timeline mini riset
+Timeline mini riset tentang mental health on tech workspace mengikuti tahapan dari metode CRISP-DM. Berikut adalah timeline dari mini riset ini.
+1. Pencarian topik penelitian
+2. Pencarian dataset yang cocok dengan topik penelian
+3. Pemilihan algoritma
+4. Business Understanding
+5. Data Understanding
+6. Data Preparation
+7. Modeling
+8. Evaluation
 
 # Data Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-23%20November%202022-green)
