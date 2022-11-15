@@ -19,10 +19,22 @@
 # Business Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-16%20November%202022-green)
 ## Latar Belakang Masalah
+
 ## Identifikasi Masalah
+
 ## Metode Pendekatan Penyelesaian Masalah
+Metode penyelesaian masalah yang digunakan pada penelitian ini adalah metodologi CRISP-DM. Metodologi Cross-Industry Standard Process for Data Mining atau CRISP-DM adalah salah satu model proses datamining (datamining framework) yang awalnya (1996) dibangun oleh 5 perusahaan yaitu Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation dan OHRA. Framework ini kemudian dikembangan oleh ratusan organisasi dan perusahaan di Eropa untuk dijadikan methodology standard non-proprietary bagi data mining. Versi pertama dari methodologi ini dipresentasikan pada 4th CRISP-DM SIG Workshop di Brussels pada bulan Maret 1999 (Pete Chapman, 1999); dan langkah langkah proses datamining berdasarkan model ini di publikasikan pada tahun berikutnya (Pete Chapman,2000).
+Banyak hasil penelitian yang mengungkapkan bahwa CRISP-DM adalah datamining model yang masih digunakan secara luas di kalangan industry, sebahagian dikarenakan keunggulannya dalam menyelesaikan banyak persoalan dalam proyek proyek data mining.CRISP-DM memiliki 6 tahapan yaitu:
+1. Business Understanding
+2. Data Understanding
+3. Data Preparation
+4. Modeling
+5. Evaluation
+6.Deployment
+
 ## Tujuan Teknis dan Kriteria Kesuksesan
-## Time line mini riset
+
+## Timeline mini riset
 
 # Data Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-23%20November%202022-green)
