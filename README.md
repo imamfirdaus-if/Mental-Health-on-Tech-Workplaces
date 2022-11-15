@@ -44,6 +44,7 @@ Timeline mini riset tentang mental health on tech workspace mengikuti tahapan da
 6. Data Preparation
 7. Modeling
 8. Evaluation
+![Arsitektur_Assets](Assets/Timeline.png)
 
 # Data Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-23%20November%202022-green)
