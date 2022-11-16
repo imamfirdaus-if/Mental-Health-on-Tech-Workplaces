@@ -7,7 +7,7 @@
 <img src="Assets/ImamFirdaus.png" width="128"/>
 <img src="Assets/IfanyDewiTustianti.png" width="128"/>
 <img src="Assets/MFarhanFU.png" width="128"/>
-<img src="Assets/RizaFajarMaulana.png" width="128"/>
+<img src="Assets/UserDefault.png" width="128"/>
 <img src="Assets/MuhamadRizkiIsaD.png" width="128"/>
 
 <br>
@@ -19,9 +19,11 @@
 # Business Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-16%20November%202022-green)
 ## Latar Belakang Masalah
-Kesehatan merupakan salah satu komponen penting yang harus diperhatikan oleh manusia. Kesehatan memiliki beberapa jenis yaitu kesehatan fisik, mental, sosial dan ekonomi. Kesehatan mental memiliki arti keadaan dimana seseorang dapat menyadari potensi yang dimilikinya, bekerja secara produktif, mampu mengatasi tekanan hidup, dan dapat memberikan kontribusi bagi sekitarnya secara maksimal. Sehingga kesehatan mental mencangkup pada aspek-aspek kesehatan fisik, sosial dan ekonomi.
+Kesehatan merupakan salah satu komponen penting yang harus diperhatikan oleh manusia. Kesehatan memiliki beberapa jenis yaitu kesehatan fisik, mental, sosial dan ekonomi. Kesehatan mental sendiri mempunyai arti keadaan dimana seseorang dapat menyadari potensi yang dimilikinya, bekerja secara produktif, mampu mengatasi tekanan hidup, dan dapat memberikan kontribusi bagi sekitarnya secara maksimal. Sehingga kesehatan mental mencangkup pada aspek-aspek kesehatan fisik, sosial dan ekonomi.
 
+Sekarang kita tahu bahwa kesehatan mental sangat berperan penting dalam kehidupan manusia. Namun, tidak sedikit orang yang masih belum aware dengan kesehatan mental hanya memikirkan kesehatan fisik dan ekonomi saja. Padahal jika salah satu terganggu maka secara tidak sadar akan mempengaruhi kesehatan yang lain. Selain itu kesehatan mental harus diperhatikan oleh seluruh manusia karna dampak nya dapat terjadi kepada seluruh kalangan, baik anak sekolah, pekerja, bahkan orang yang sudah berumah tangga.
 
+Kesehatan mental pada kalangan pekerja khususnya dibidang teknologi sangat perlu diperhatikan namun kenyataannya kesehatan mental sering luput diperhatikan oleh perusahaan dan pekerja itu sendiri karena masih menyepelekan dan menganggap faktor penyebab kesehatan mental, seperti jam kerja yang tidak teratur, beban kerja yang berat, lingkungan kerja yang tidak sehat dan lain sebagainya, merupakan hal yang wajar terjadi dilingkungan kerja, padahal itu dapat menjadi pemicu seorang pekerja menjadi tidak produktif, burnout, dan kurang maksimal.
 ## Identifikasi Masalah
 1. tingginya para pekerja bidang teknologi di United states dengan kondisi kesehatan mental yang kurang diperhatikan
 2. beratnya beban pekerjaan di bidang teknologi yang mampu membuat kesehatan mental menurun
