@@ -19,6 +19,8 @@
 # Business Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-16%20November%202022-green)
 ## Latar Belakang Masalah
+Kesehatan merupakan salah satu komponen penting yang harus diperhatikan oleh manusia. Kesehatan memiliki beberapa jenis yaitu kesehatan fisik, mental, sosial dan ekonomi. Kesehatan mental memiliki arti keadaan dimana seseorang dapat menyadari potensi yang dimilikinya, bekerja secara produktif, mampu mengatasi tekanan hidup, dan dapat memberikan kontribusi bagi sekitarnya secara maksimal. Sehingga kesehatan mental mencangkup pada aspek-aspek kesehatan fisik, sosial dan ekonomi.
+
 
 ## Identifikasi Masalah
 1. tingginya para pekerja bidang teknologi di United states dengan kondisi kesehatan mental yang kurang diperhatikan
