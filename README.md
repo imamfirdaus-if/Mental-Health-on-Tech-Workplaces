@@ -27,13 +27,6 @@
 4. kesehatan mental yang buruk membuat pekerjaan yang dilakukan tidak maksimal
 5. Gangguan kesehatan mental pekerja berpotensi membawa dampak pada kerugian perekonomian
 
-## Tujuan Teknis dan Kriteria Kesuksesan
-1. Mengetahui gender para pekerja bidang teknologi di United States yang lebih dominan mengalami gangguan mental 
-2. Mengetahui berapa lama waktu kerja yang dilakukan oleh para pekerja bidang teknologi di United State yang menderita gangguan mental
-3. Mengetahui faktor apa yang paling berpengaruh pada kesehatan mental para pekerja bidang teknologi di United States
-4. Mengetahui apakah para pekerja di bidang teknologi di United States ini sudah mendapatkan terapi pengobatan
-5. Mengetahui rentang usia para pekerja bidang teknologi di United States yang rentan mengalami gangguan mental. 
-
 ## Metode Pendekatan Penyelesaian Masalah
 Metode penyelesaian masalah yang digunakan pada penelitian ini adalah metodologi CRISP-DM. Metodologi Cross-Industry Standard Process for Data Mining atau CRISP-DM adalah salah satu model proses datamining (datamining framework) yang awalnya (1996) dibangun oleh 5 perusahaan yaitu Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation dan OHRA. Framework ini kemudian dikembangan oleh ratusan organisasi dan perusahaan di Eropa untuk dijadikan methodology standard non-proprietary bagi data mining. Versi pertama dari methodologi ini dipresentasikan pada 4th CRISP-DM SIG Workshop di Brussels pada bulan Maret 1999 (Pete Chapman, 1999); dan langkah langkah proses datamining berdasarkan model ini di publikasikan pada tahun berikutnya (Pete Chapman,2000).
 Banyak hasil penelitian yang mengungkapkan bahwa CRISP-DM adalah datamining model yang masih digunakan secara luas di kalangan industry, sebahagian dikarenakan keunggulannya dalam menyelesaikan banyak persoalan dalam proyek proyek data mining.CRISP-DM memiliki 6 tahapan yaitu:
@@ -45,6 +38,11 @@ Banyak hasil penelitian yang mengungkapkan bahwa CRISP-DM adalah datamining mode
 6. Deployment
 
 ## Tujuan Teknis dan Kriteria Kesuksesan
+1. Mengetahui gender para pekerja bidang teknologi di United States yang lebih dominan mengalami gangguan mental 
+2. Mengetahui berapa lama waktu kerja yang dilakukan oleh para pekerja bidang teknologi di United State yang menderita gangguan mental
+3. Mengetahui faktor apa yang paling berpengaruh pada kesehatan mental para pekerja bidang teknologi di United States
+4. Mengetahui apakah para pekerja di bidang teknologi di United States ini sudah mendapatkan terapi pengobatan
+5. Mengetahui rentang usia para pekerja bidang teknologi di United States yang rentan mengalami gangguan mental. 
 
 ## Timeline mini riset
 Timeline mini riset tentang mental health on tech workspace mengikuti tahapan dari metode CRISP-DM. Berikut adalah timeline dari mini riset ini.
