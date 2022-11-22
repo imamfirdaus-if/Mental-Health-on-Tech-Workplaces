@@ -65,6 +65,7 @@ Timeline mini riset tentang mental health on tech workspace mengikuti tahapan da
 ## Kebutuhan Data
 
 ## Pengambilan Data
+Pengambilan data dilakukan melalui dari website dataset, yaitu kaggle dengan judul dataset Mental Health in Tech Survey yang beralamatkan di https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
 
 ## Integrasi Data
 
