@@ -74,6 +74,7 @@ Data yang digunakan dalam penelitian ini merupakan data yang berasal hanya dari 
 ## Telaah Karekteristik Data
 
 ## Validasi Data
+Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014. Data tersebut mengukur sikap terhadap kesehatan mental dan frekuensi gangguan kesehatan mental di tempat kerja teknologi. Data yang digunakan memiliki lisensi CC BY-SA 4.0. Data tersebut diunggah pada situs kaggle oleh Open Sourcing Mental Illness, LTD.
 
 # Data Preparation
 ![Schedule](https://img.shields.io/badge/Schedule-16%20November%202022-green)
