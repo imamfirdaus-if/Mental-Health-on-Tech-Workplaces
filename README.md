@@ -69,6 +69,7 @@ Kebutuhan data yang diperlukan dalam penelitian ini adalah kondisi mental dari p
 Pengambilan data dilakukan melalui dari website dataset, yaitu kaggle dengan judul dataset Mental Health in Tech Survey yang beralamatkan di https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
 
 ## Integrasi Data
+Data yang digunakan dalam penelitian ini merupakan data yang berasal hanya dari satu sumber data saja. Integrasi data yang dilakukan dalam penelitian ini nantinya hanya akan menghubungkan antar jenis data sesuai dengan kebutuhan data yang diperlukan.
 
 ## Telaah Karekteristik Data
 
