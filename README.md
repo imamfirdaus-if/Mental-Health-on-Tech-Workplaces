@@ -62,15 +62,15 @@ Timeline mini riset tentang mental health on tech workspace mengikuti tahapan da
 
 # Data Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-23%20November%202022-green)
-##Kebutuhan Data
+## Kebutuhan Data
 
-##Pengambilan Data
+## Pengambilan Data
 
-##Integrasi Data
+## Integrasi Data
 
-##Telaah Karekteristik Data
+## Telaah Karekteristik Data
 
-##Validasi Data
+## Validasi Data
 
 # Data Preparation
 ![Schedule](https://img.shields.io/badge/Schedule-16%20November%202022-green)
