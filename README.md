@@ -63,6 +63,7 @@ Timeline mini riset tentang mental health on tech workspace mengikuti tahapan da
 # Data Understanding
 ![Schedule](https://img.shields.io/badge/Schedule-23%20November%202022-green)
 ## Kebutuhan Data
+Kebutuhan data yang diperlukan dalam penelitian ini adalah kondisi mental dari para pekerja yang bekerja di bidang teknologi serta faktor apa saja yang mempengaruhi kesehatan mental para pekerja tersebut.
 
 ## Pengambilan Data
 Pengambilan data dilakukan melalui dari website dataset, yaitu kaggle dengan judul dataset Mental Health in Tech Survey yang beralamatkan di https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
