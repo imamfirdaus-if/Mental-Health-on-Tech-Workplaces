@@ -72,6 +72,7 @@ Pengambilan data dilakukan melalui dari website dataset, yaitu kaggle dengan jud
 Data yang digunakan dalam penelitian ini merupakan data yang berasal hanya dari satu sumber data saja. Integrasi data yang dilakukan dalam penelitian ini nantinya hanya akan menghubungkan antar jenis data sesuai dengan kebutuhan data yang diperlukan.
 
 ## Telaah Karekteristik Data
+Dalam dataset Mental Health in Tech Survey ini terdapat 27 kolom dengan 5 jenis karakteristik, yaitu sebagai berikut :
 
 ## Validasi Data
 Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014. Data tersebut mengukur sikap terhadap kesehatan mental dan frekuensi gangguan kesehatan mental di tempat kerja teknologi. Data yang digunakan memiliki lisensi CC BY-SA 4.0. Data tersebut diunggah pada situs kaggle oleh Open Sourcing Mental Illness, LTD.
