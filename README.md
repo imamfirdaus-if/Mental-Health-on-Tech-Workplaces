@@ -86,6 +86,14 @@ Dalam dataset Mental Health in Tech Survey ini terdapat 27 kolom dengan 5 jenis 
 11. remote_work, yaitu waktu bekerja dari jarak jauh setidaknya 50% dari waktu kerja, jenis data ini boolean.
 12. tech_company, yaitu data apakah respondent bekerja di perusahaan dengan basis teknologi. jenis data ini adalah boolean.
 13. benefits, yaitu data apakah perusahaan menyediakan layanan untuk kesehatan mental. jenis data ini adalah string.
+14. care_options, yaitu pengetahuan para respondent mengenai penyediaan layanan kesehatan mental yang disediakan perusahaan. jenis data ini adalah string.
+15. wellness_program, yaitu pnegetahuan para respondent mengenai apakah atasannya memiliki program kesehatan mental sebagai kesejahteraan karyawannya. jenis data ini adalah string.
+16. seek_help, yaitu pengetahuan para respondent mengenai penanganan lebih lanjut terhadap masalah kesehatan mental. jenis data ini adalah stirng.
+17. anonymity, yaitu jaminan atas kerahasiaan riwayat perawatan kesehatan mental. jenis data ini adalah string.
+18. leave, yaitu kemudahan pengambilan cuti bagi respondent ketika memiliki gangguan kesehatan mental. jenis data ini adalah string.
+19. mental_health_consequence, yaitu data apakah jika para pekerja mendiskusikan kesehatan mental dengan atasannya akan memberikan dampak negatif bagi pekerjaannya. jenis data ini adalah string.
+20. physc_health_consequence, yaitu yaitu data apakah jika para pekerja mendiskusikan kesehatan fisik dengan atasannya akan memberikan dampak negatif bagi pekerjaannya. jenis data ini adalah string.
+
 
 ## Validasi Data
 Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014. Data tersebut mengukur sikap terhadap kesehatan mental dan frekuensi gangguan kesehatan mental di tempat kerja teknologi. Data yang digunakan memiliki lisensi CC BY-SA 4.0. Data tersebut diunggah pada situs kaggle oleh Open Sourcing Mental Illness, LTD.
