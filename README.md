@@ -73,6 +73,19 @@ Data yang digunakan dalam penelitian ini merupakan data yang berasal hanya dari 
 
 ## Telaah Karekteristik Data
 Dalam dataset Mental Health in Tech Survey ini terdapat 27 kolom dengan 5 jenis karakteristik, yaitu sebagai berikut :
+1. Timestamp, yaitu tanggal dimana survey ini dilakukan berisi tanggal juga jam berlangsungnya. jenis data ini adalah object.
+2. Age, yaitu umur dari para respondent survey. jenis data ini adalah integer
+3. Gender, yaitu jenis kelamin dari para respondent survey. jenis data ini adalah string.
+4. country, yaitu asal negara dari pada respondet survey. jenis data ini adalah stirng.
+5. state, yaitu berisi kode negara bagian bagi para respondent yang berasal dari united states. jenis data ini adalah string.
+6. self_employed, yaitu seseorang yang tidak bekerja untuk perusahaan tertentu yang memberikan gaji atau upah konsisten. jenis data ini adalah boolean.
+7. family_history, yaitu riwayat keluarga yang pernah mengalami gangguan kesehatan mental. jenis data ini adalah boolea.
+8. treatment, yaitu data apakah para pekerja dengan gangguan mental ini sudah mendapatkan terapi. jenis data ini adalah boolean.
+9. work_interfere, yaitu data kondisi para respondent yang memiliki gangguan mental apakah dapat mengganggu pekerjaan. jenis data ini adalah string.
+10. no_employee, yaitu jumlah karyawan yang berkerja di perusahaan tempat repondent bekerja, jenis data ini adalah String.
+11. remote_work, yaitu waktu bekerja dari jarak jauh setidaknya 50% dari waktu kerja, jenis data ini boolean.
+12. tech_company, yaitu data apakah respondent bekerja di perusahaan dengan basis teknologi. jenis data ini adalah boolean.
+13. benefits, yaitu data apakah perusahaan menyediakan layanan untuk kesehatan mental. jenis data ini adalah string.
 
 ## Validasi Data
 Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014. Data tersebut mengukur sikap terhadap kesehatan mental dan frekuensi gangguan kesehatan mental di tempat kerja teknologi. Data yang digunakan memiliki lisensi CC BY-SA 4.0. Data tersebut diunggah pada situs kaggle oleh Open Sourcing Mental Illness, LTD.
