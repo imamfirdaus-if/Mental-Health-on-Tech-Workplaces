@@ -76,10 +76,10 @@ Dalam dataset Mental Health in Tech Survey ini terdapat 27 kolom dengan 5 jenis 
 1. Timestamp, yaitu tanggal dimana survey ini dilakukan berisi tanggal juga jam berlangsungnya. jenis data ini adalah object.
 2. Age, yaitu umur dari para respondent survey. jenis data ini adalah integer
 3. Gender, yaitu jenis kelamin dari para respondent survey. jenis data ini adalah string.
-4. country, yaitu asal negara dari pada respondet survey. jenis data ini adalah stirng.
+4. country, yaitu asal negara dari pada respondet survey. jenis data ini adalah string.
 5. state, yaitu berisi kode negara bagian bagi para respondent yang berasal dari united states. jenis data ini adalah string.
 6. self_employed, yaitu seseorang yang tidak bekerja untuk perusahaan tertentu yang memberikan gaji atau upah konsisten. jenis data ini adalah boolean.
-7. family_history, yaitu riwayat keluarga yang pernah mengalami gangguan kesehatan mental. jenis data ini adalah boolea.
+7. family_history, yaitu riwayat keluarga yang pernah mengalami gangguan kesehatan mental. jenis data ini adalah string.
 8. treatment, yaitu data apakah para pekerja dengan gangguan mental ini sudah mendapatkan terapi. jenis data ini adalah boolean.
 9. work_interfere, yaitu data kondisi para respondent yang memiliki gangguan mental apakah dapat mengganggu pekerjaan. jenis data ini adalah string.
 10. no_employee, yaitu jumlah karyawan yang berkerja di perusahaan tempat repondent bekerja, jenis data ini adalah String.
@@ -88,11 +88,18 @@ Dalam dataset Mental Health in Tech Survey ini terdapat 27 kolom dengan 5 jenis 
 13. benefits, yaitu data apakah perusahaan menyediakan layanan untuk kesehatan mental. jenis data ini adalah string.
 14. care_options, yaitu pengetahuan para respondent mengenai penyediaan layanan kesehatan mental yang disediakan perusahaan. jenis data ini adalah string.
 15. wellness_program, yaitu pnegetahuan para respondent mengenai apakah atasannya memiliki program kesehatan mental sebagai kesejahteraan karyawannya. jenis data ini adalah string.
-16. seek_help, yaitu pengetahuan para respondent mengenai penanganan lebih lanjut terhadap masalah kesehatan mental. jenis data ini adalah stirng.
+16. seek_help, yaitu pengetahuan para respondent mengenai penanganan lebih lanjut terhadap masalah kesehatan mental. jenis data ini adalah string.
 17. anonymity, yaitu jaminan atas kerahasiaan riwayat perawatan kesehatan mental. jenis data ini adalah string.
 18. leave, yaitu kemudahan pengambilan cuti bagi respondent ketika memiliki gangguan kesehatan mental. jenis data ini adalah string.
 19. mental_health_consequence, yaitu data apakah jika para pekerja mendiskusikan kesehatan mental dengan atasannya akan memberikan dampak negatif bagi pekerjaannya. jenis data ini adalah string.
-20. physc_health_consequence, yaitu yaitu data apakah jika para pekerja mendiskusikan kesehatan fisik dengan atasannya akan memberikan dampak negatif bagi pekerjaannya. jenis data ini adalah string.
+20. physc_health_consequence, yaitu data apakah jika para pekerja mendiskusikan kesehatan fisik dengan atasannya akan memberikan dampak negatif bagi pekerjaannya. jenis data ini adalah string.
+21. coworkers, yaitu data apakah respondent bersedia mendiskusikan kesehatan mental dengan rekan kerjanya. jenis data ini adalah string.
+22. supervisors, yaitu data apakah respondent bersedia mendiskusikan kesehatan mental langsung kepada atasannya. jenis data ini adalah string.
+23. mental_health_interview, yaitu data apakah para respondent mendapatkan topik kesehatan mental saat interview kerja. jenis data ini adalah string.
+24. physc_mental_health, yaitu data apakah para respondent mendapatkan topik kesehatan fisik saat interview kerja. jenis data ini adalah string.
+25. mental_vs_physc, yaitu pengetahuan para respondent apakah atasannya memandang bahwa kesehatan mental sama pentingnya dengan kesehatan fisik. jenis data ini adalah string.
+26. obs_consequence, yaitu hasil pengamatan para respondent terhadap rekan kerja nya yang memiliki gangguan mental apakah berpengaruh negatif pada pekerjaannya. jenis data ini adalah boolean.
+27. comments, yaitu komentar atau catatan yang bersifat opsional. jenis data ini adalah string. 
 
 
 ## Validasi Data
