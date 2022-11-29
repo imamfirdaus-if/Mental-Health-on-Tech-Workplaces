@@ -106,7 +106,7 @@ Dalam dataset Mental Health in Tech Survey ini terdapat 27 kolom dengan 5 jenis 
 Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014. Data tersebut mengukur sikap terhadap kesehatan mental dan frekuensi gangguan kesehatan mental di tempat kerja teknologi. Data yang digunakan memiliki lisensi CC BY-SA 4.0. Data tersebut diunggah pada situs kaggle oleh Open Sourcing Mental Illness, LTD.
 
 # Data Preparation
-![Schedule](https://img.shields.io/badge/Schedule-16%20November%202022-green)
+![Schedule](https://img.shields.io/badge/Schedule-30%20November%202022-green)
 
 # Modelling
 ![Schedule](https://img.shields.io/badge/Schedule-7%20Desember%202022-green)
