@@ -108,6 +108,8 @@ Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014.
 # Data Preparation
 ![Schedule](https://img.shields.io/badge/Schedule-30%20November%202022-green)
 
+# Data Visualization
+
 # Modelling
 ![Schedule](https://img.shields.io/badge/Schedule-7%20Desember%202022-green)
 
