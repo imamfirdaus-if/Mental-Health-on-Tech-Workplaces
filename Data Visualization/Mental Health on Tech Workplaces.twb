@@ -1,0 +1,1125 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Worksheet (DataPreparation-survey-mental-health-on-tech-workplaces)' inline='true' name='federated.1tl0ebl1hrtyk51gaoeep0l83vm1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DataPreparation-survey-mental-health-on-tech-workplaces' name='excel-direct.0vio9i21tsuxum15qyhxr0znquou'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/UIN Sunan Gunung Djati Bandung/Teknik Informatika/Semester 7/Visualisasi Data/Data Preparation/DataPreparation-survey-mental-health-on-tech-workplaces.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0vio9i21tsuxum15qyhxr0znquou' name='Worksheet' table='[Worksheet$]' type='table'>
+          <columns gridOrigin='A1:AA739:no:A1:AA739:0' header='yes' outcome='6'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='string' name='state' ordinal='4' />
+            <column datatype='string' name='self_employed' ordinal='5' />
+            <column datatype='string' name='family_history' ordinal='6' />
+            <column datatype='string' name='treatment' ordinal='7' />
+            <column datatype='string' name='work_interfere' ordinal='8' />
+            <column datatype='string' name='no_employees' ordinal='9' />
+            <column datatype='string' name='remote_work' ordinal='10' />
+            <column datatype='string' name='tech_company' ordinal='11' />
+            <column datatype='string' name='benefits' ordinal='12' />
+            <column datatype='string' name='care_options' ordinal='13' />
+            <column datatype='string' name='wellness_program' ordinal='14' />
+            <column datatype='string' name='seek_help' ordinal='15' />
+            <column datatype='string' name='anonymity' ordinal='16' />
+            <column datatype='string' name='leave' ordinal='17' />
+            <column datatype='string' name='mental_health_consequence' ordinal='18' />
+            <column datatype='string' name='phys_health_consequence' ordinal='19' />
+            <column datatype='string' name='coworkers' ordinal='20' />
+            <column datatype='string' name='supervisor' ordinal='21' />
+            <column datatype='string' name='mental_health_interview' ordinal='22' />
+            <column datatype='string' name='phys_health_interview' ordinal='23' />
+            <column datatype='string' name='mental_vs_physical' ordinal='24' />
+            <column datatype='string' name='obs_consequence' ordinal='25' />
+            <column datatype='string' name='comments' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0vio9i21tsuxum15qyhxr0znquou' name='Worksheet' table='[Worksheet$]' type='table'>
+          <columns gridOrigin='A1:AA739:no:A1:AA739:0' header='yes' outcome='6'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='string' name='state' ordinal='4' />
+            <column datatype='string' name='self_employed' ordinal='5' />
+            <column datatype='string' name='family_history' ordinal='6' />
+            <column datatype='string' name='treatment' ordinal='7' />
+            <column datatype='string' name='work_interfere' ordinal='8' />
+            <column datatype='string' name='no_employees' ordinal='9' />
+            <column datatype='string' name='remote_work' ordinal='10' />
+            <column datatype='string' name='tech_company' ordinal='11' />
+            <column datatype='string' name='benefits' ordinal='12' />
+            <column datatype='string' name='care_options' ordinal='13' />
+            <column datatype='string' name='wellness_program' ordinal='14' />
+            <column datatype='string' name='seek_help' ordinal='15' />
+            <column datatype='string' name='anonymity' ordinal='16' />
+            <column datatype='string' name='leave' ordinal='17' />
+            <column datatype='string' name='mental_health_consequence' ordinal='18' />
+            <column datatype='string' name='phys_health_consequence' ordinal='19' />
+            <column datatype='string' name='coworkers' ordinal='20' />
+            <column datatype='string' name='supervisor' ordinal='21' />
+            <column datatype='string' name='mental_health_interview' ordinal='22' />
+            <column datatype='string' name='phys_health_interview' ordinal='23' />
+            <column datatype='string' name='mental_vs_physical' ordinal='24' />
+            <column datatype='string' name='obs_consequence' ordinal='25' />
+            <column datatype='string' name='comments' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AA739:no:A1:AA739:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>self_employed</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[self_employed]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>self_employed</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>family_history</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[family_history]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>family_history</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>treatment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[treatment]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>treatment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work_interfere</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[work_interfere]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>work_interfere</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>no_employees</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[no_employees]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>no_employees</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remote_work</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[remote_work]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>remote_work</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tech_company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tech_company]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>tech_company</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>benefits</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[benefits]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>benefits</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>care_options</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[care_options]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>care_options</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wellness_program</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[wellness_program]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>wellness_program</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seek_help</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[seek_help]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>seek_help</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anonymity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[anonymity]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>anonymity</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>leave</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[leave]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>leave</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mental_health_consequence</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mental_health_consequence]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>mental_health_consequence</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phys_health_consequence</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[phys_health_consequence]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>phys_health_consequence</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coworkers</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[coworkers]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>coworkers</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>supervisor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[supervisor]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>supervisor</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mental_health_interview</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mental_health_interview]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>mental_health_interview</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phys_health_interview</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[phys_health_interview]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>phys_health_interview</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mental_vs_physical</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mental_vs_physical]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>mental_vs_physical</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>obs_consequence</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[obs_consequence]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>obs_consequence</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[comments]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>comments</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RID_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Worksheet' datatype='table' name='[__tableau_internal_object_id__].[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]' role='measure' type='quantitative' />
+      <column caption='Anonymity' datatype='string' name='[anonymity]' role='dimension' type='nominal' />
+      <column caption='Benefits' datatype='string' name='[benefits]' role='dimension' type='nominal' />
+      <column caption='Care Options' datatype='string' name='[care_options]' role='dimension' type='nominal' />
+      <column caption='Comments' datatype='string' name='[comments]' role='dimension' type='nominal' />
+      <column caption='Coworkers' datatype='string' name='[coworkers]' role='dimension' type='nominal' />
+      <column caption='Family History' datatype='string' name='[family_history]' role='dimension' type='nominal' />
+      <column caption='Leave' datatype='string' name='[leave]' role='dimension' type='nominal' />
+      <column caption='Mental Health Consequence' datatype='string' name='[mental_health_consequence]' role='dimension' type='nominal' />
+      <column caption='Mental Health Interview' datatype='string' name='[mental_health_interview]' role='dimension' type='nominal' />
+      <column caption='Mental Vs Physical' datatype='string' name='[mental_vs_physical]' role='dimension' type='nominal' />
+      <column caption='No Employees' datatype='string' name='[no_employees]' role='dimension' type='nominal' />
+      <column caption='Obs Consequence' datatype='string' name='[obs_consequence]' role='dimension' type='nominal' />
+      <column caption='Phys Health Consequence' datatype='string' name='[phys_health_consequence]' role='dimension' type='nominal' />
+      <column caption='Phys Health Interview' datatype='string' name='[phys_health_interview]' role='dimension' type='nominal' />
+      <column caption='Remote Work' datatype='string' name='[remote_work]' role='dimension' type='nominal' />
+      <column caption='Seek Help' datatype='string' name='[seek_help]' role='dimension' type='nominal' />
+      <column caption='Self Employed' datatype='string' name='[self_employed]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Supervisor' datatype='string' name='[supervisor]' role='dimension' type='nominal' />
+      <column caption='Tech Company' datatype='string' name='[tech_company]' role='dimension' type='nominal' />
+      <column caption='Treatment' datatype='string' name='[treatment]' role='dimension' type='nominal' />
+      <column caption='Wellness Program' datatype='string' name='[wellness_program]' role='dimension' type='nominal' />
+      <column caption='Work Interfere' datatype='string' name='[work_interfere]' role='dimension' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='Country, state'>
+          <field>[Country]</field>
+          <field>[state]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gender:nk]' palette='sf_color_safe' type='palette'>
+            <map to='#529ee0'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#ed444a'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Worksheet' id='Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA'>
+            <properties context=''>
+              <relation connection='excel-direct.0vio9i21tsuxum15qyhxr0znquou' name='Worksheet' table='[Worksheet$]' type='table'>
+                <columns gridOrigin='A1:AA739:no:A1:AA739:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Timestamp' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='string' name='state' ordinal='4' />
+                  <column datatype='string' name='self_employed' ordinal='5' />
+                  <column datatype='string' name='family_history' ordinal='6' />
+                  <column datatype='string' name='treatment' ordinal='7' />
+                  <column datatype='string' name='work_interfere' ordinal='8' />
+                  <column datatype='string' name='no_employees' ordinal='9' />
+                  <column datatype='string' name='remote_work' ordinal='10' />
+                  <column datatype='string' name='tech_company' ordinal='11' />
+                  <column datatype='string' name='benefits' ordinal='12' />
+                  <column datatype='string' name='care_options' ordinal='13' />
+                  <column datatype='string' name='wellness_program' ordinal='14' />
+                  <column datatype='string' name='seek_help' ordinal='15' />
+                  <column datatype='string' name='anonymity' ordinal='16' />
+                  <column datatype='string' name='leave' ordinal='17' />
+                  <column datatype='string' name='mental_health_consequence' ordinal='18' />
+                  <column datatype='string' name='phys_health_consequence' ordinal='19' />
+                  <column datatype='string' name='coworkers' ordinal='20' />
+                  <column datatype='string' name='supervisor' ordinal='21' />
+                  <column datatype='string' name='mental_health_interview' ordinal='22' />
+                  <column datatype='string' name='phys_health_interview' ordinal='23' />
+                  <column datatype='string' name='mental_vs_physical' ordinal='24' />
+                  <column datatype='string' name='obs_consequence' ordinal='25' />
+                  <column datatype='string' name='comments' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Gender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (DataPreparation-survey-mental-health-on-tech-workplaces)' name='federated.1tl0ebl1hrtyk51gaoeep0l83vm1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tl0ebl1hrtyk51gaoeep0l83vm1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Worksheet' datatype='integer' name='[__tableau_internal_object_id__].[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Worksheet' datatype='table' name='[__tableau_internal_object_id__].[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]' value='Total Responden'>
+              <formatted-text>
+                <run>Total Responden</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]' />
+              <wedge-size column='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]' />
+              <size column='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='174'>
+            <formatted-text>
+              <run fontcolor='#787878'>Gender: </run>
+              <run bold='true'><![CDATA[<[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total: </run>
+              <run bold='true'><![CDATA[<[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]</field>
+                      <field>[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>558</value>
+                    <value>&quot;Male&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-120' y='25' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='208'>
+            <formatted-text>
+              <run fontcolor='#787878'>Gender: </run>
+              <run bold='true'><![CDATA[<[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total: </run>
+              <run bold='true'><![CDATA[<[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]</field>
+                      <field>[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>180</value>
+                    <value>&quot;Female&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='116' y='-20' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{17D838A5-5C35-447D-9E3D-BF5499DB5E5E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard-Gender'>
+      <style />
+      <size maxheight='827' maxwidth='1169' minheight='827' minwidth='1169' preset-index='16' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98066' id='8' param='horz' type-v2='layout-flow' w='98632' x='684' y='967'>
+            <zone h='98066' id='6' type-v2='layout-basic' w='98632' x='684' y='967'>
+              <zone forceUpdate='true' h='11004' id='3' type-v2='text' w='98632' x='684' y='967'>
+                <formatted-text>
+                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='18'>Mental Health on Tech Workplaces</run>
+                  <run fontalignment='1'>Æ&#10;</run>
+                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='18'>case study on United States</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='77993' id='5' name='Gender' show-title='false' w='82739' x='684' y='21040'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='129' h='77993' id='10' is-fixed='true' name='Gender' pane-specification-id='0' param='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]' type-v2='size' w='15893' x='83423' y='21040'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9069' id='9' name='Gender' pane-specification-id='0' param='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]' type-v2='color' w='15893' x='83423' y='11971'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='9069' id='11' type-v2='text' w='82739' x='684' y='11971'>
+                <formatted-text>
+                  <run fontcolor='#499894' fontname='Tableau Bold' fontsize='16'>Variable: Gender</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98066' id='12' param='vert' type-v2='layout-flow' w='98632' x='684' y='967'>
+                <zone forceUpdate='true' h='11004' id='3' type-v2='text' w='98632' x='684' y='967'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='18'>Mental Health on Tech Workplaces</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='18'>case study on United States</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='9069' id='11' type-v2='text' w='82739' x='684' y='11971'>
+                  <formatted-text>
+                    <run fontcolor='#499894' fontname='Tableau Bold' fontsize='16'>Variable: Gender</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='77993' id='5' is-fixed='true' name='Gender' show-title='false' w='82739' x='684' y='21040'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='129' h='77993' id='10' name='Gender' pane-specification-id='0' param='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]' type-v2='size' w='15893' x='83423' y='21040'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9069' id='9' name='Gender' pane-specification-id='0' param='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]' type-v2='color' w='15893' x='83423' y='11971'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2ABB750A-CF19-4BFC-92A4-7990E869F84C}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[__tableau_internal_object_id__].[cnt:Worksheet_2EA394DE7C3B4631AC48760BAAA7A2BA:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8335C6D3-64AC-49AE-9B9B-0AD7BA6EDF94}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard-Gender'>
+      <viewpoints>
+        <viewpoint name='Gender'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1tl0ebl1hrtyk51gaoeep0l83vm1].[none:Gender:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{6D77AD74-6866-41D8-8280-FF6C6E6C719E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard-Gender' width='192'>
+      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
+      7f8AeeSKZvsqfecAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Gender' width='192'>
+      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
+      ZYh/AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
