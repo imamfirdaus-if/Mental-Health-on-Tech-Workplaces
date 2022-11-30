@@ -107,6 +107,34 @@ Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014.
 
 # Data Preparation
 ![Schedule](https://img.shields.io/badge/Schedule-30%20November%202022-green)
+Untuk mempermudah dalam memvisualisasikan data, maka dilakukan persiapan data yang akan diolah dari sumber data yang telah disiapkan. Terdapat beberapa persiapan yang dilakukan, diantaranya adalah sebagai berikut:
+### Negara yang digunakan hanya United States
+Untuk menunjang tujuan teknis serta mempermudah dalam memvisualisasikan data, maka data yang disiapkan hanya data dari negara United States saja.
+### Merapihkan kategori data jenis kelamin
+Pada sumber data yang digunakan, terdapat banyak kategori jenis kelamin yang dimasukkan. Kategori tersebut kemudian dikelompokkan menjadi kategori yang akan digunakan yang terbagi menjadi dua jenis kategori sebagai berikut.
+| Female  | Male |
+| ------------- | ------------- |
+| Cis-Female  | Cis Male  |
+| cis-female/femmme  | M  |
+| F | Mail  |
+| femail  | maile  |
+| Femake  | Make  |
+| Female  | Male  |
+| Female (cis)  | Male(CIS)  |
+| queer/she/they  | Male-ish  |
+| woman  | Man  |
+|   | msle  |
+Untuk data yang tidak memiliki kejelasan diantara dua kategori tersebut dilakukan pemisahan data untuk tidak diambil sebagai bahan miniriset. Berikut adalah kategori yang tidak digunakan.
+1. Genderqueer
+2. Nah
+3. non binary
+4. p
+5. Female (trans)
+6. Trans woman
+7. Trans-female
+
+### Merapihkan data umur
+Pekerja umumnya berumur diatas 18 tahun dan dibawah 100 tahun. Maka untuk data dengan umur dibawah 18 tahun dan diatas 100 tahun tidak diambil sebagai bahan miniriset.
 
 # Data Visualization
 
