@@ -141,6 +141,7 @@ Pekerja umumnya berumur diatas 18 tahun dan dibawah 100 tahun. Maka untuk data d
 Karena pada data tersebut masih tercampur antara tech company dan non-tech company maka diperlukan pemilhan data untuk kategori tech company saja.
 
 # Data Visualization
+![Dashboard_Assets](Data Visualization/Mental health on tech tech workplace in uinted states.png)
 1. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan gender](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Gender%20rev%201.pdf)
 2. [Statistik perusahaan yang menyediakan layanan kesehatan](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/perbadingan%20jumlah%20perusahaan%20yang%20menyediakan%20layanan%20kesehatan.pdf)
 3. [Statistik kefektifan kerja berdasarkan kesehatan mental](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/pengaruh%20kesehatan%20mental%20terhadap%20keefektifan%20kerja.pdf)
