@@ -137,6 +137,9 @@ Pada sumber data yang digunakan, terdapat banyak kategori jenis kelamin yang dim
 ### Merapihkan data umur
 Pekerja umumnya berumur diatas 18 tahun dan dibawah 100 tahun. Maka untuk data dengan umur dibawah 18 tahun dan diatas 100 tahun tidak diambil sebagai bahan miniriset.
 
+### Mengambil kategori tech company
+Karena pada data tersebut masih tercampur antara tech company dan non-tech company maka diperlukan pemilhan data untuk kategori tech company saja.
+
 # Data Visualization
 
 # Modelling
