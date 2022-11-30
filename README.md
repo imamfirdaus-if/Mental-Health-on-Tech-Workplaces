@@ -107,7 +107,7 @@ Data yang digunakan merupakan Kumpulan data yang berasal dari survei tahun 2014.
 
 # Data Preparation
 ![Schedule](https://img.shields.io/badge/Schedule-30%20November%202022-green)
-Untuk mempermudah dalam memvisualisasikan data, maka dilakukan persiapan data yang akan diolah dari sumber data yang telah disiapkan. Terdapat beberapa persiapan yang dilakukan, diantaranya adalah sebagai berikut:
+<br>Untuk mempermudah dalam memvisualisasikan data, maka dilakukan persiapan data yang akan diolah dari sumber data yang telah disiapkan. Terdapat beberapa persiapan yang dilakukan, diantaranya adalah sebagai berikut:
 ### Negara yang digunakan hanya United States
 Untuk menunjang tujuan teknis serta mempermudah dalam memvisualisasikan data, maka data yang disiapkan hanya data dari negara United States saja.
 ### Merapihkan kategori data jenis kelamin
