@@ -43,7 +43,7 @@ Banyak hasil penelitian yang mengungkapkan bahwa CRISP-DM adalah datamining mode
 
 ## Tujuan Teknis dan Kriteria Kesuksesan
 1. Mengetahui gender para pekerja di bidang teknologi di United States yang lebih dominan mengalami gangguan mental 
-2. Mengetahui berapa lama waktu kerja yang dilakukan oleh para pekerja di bidang teknologi di United States yang menderita gangguan mental
+2. Mengetahui pebadingan jumlah perusahaan yang menyediakan layanan kesehatan
 3. Mengetahui faktor apa yang paling berpengaruh pada kesehatan mental para pekerja di bidang teknologi di United States
 4. Mengetahui apakah para pekerja di bidang teknologi di United States ini sudah mendapatkan terapi pengobatan
 5. Mengetahui rentang usia para pekerja di bidang teknologi di United States yang rentan mengalami gangguan mental
