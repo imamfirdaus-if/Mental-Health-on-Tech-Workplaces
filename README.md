@@ -141,11 +141,11 @@ Pekerja umumnya berumur diatas 18 tahun dan dibawah 100 tahun. Maka untuk data d
 Karena pada data tersebut masih tercampur antara tech company dan non-tech company maka diperlukan pemilhan data untuk kategori tech company saja.
 
 # Data Visualization
-1. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan gender] (https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Gender%20rev%201.pdf)
+1. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan gender](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Gender%20rev%201.pdf)
 2. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan lama waktu kerja]
 3. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan faktor yang berpengaruh]
-4. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan terapi pengobatan] (https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Treatment.pdf)
-5. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan umur] (https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Age.pdf)
+4. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan terapi pengobatan](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Treatment.pdf)
+5. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan umur](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Age.pdf)
 
 # Modelling
 ![Schedule](https://img.shields.io/badge/Schedule-7%20Desember%202022-green)
