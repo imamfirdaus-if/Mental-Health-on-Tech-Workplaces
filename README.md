@@ -124,7 +124,8 @@ Pada sumber data yang digunakan, terdapat banyak kategori jenis kelamin yang dim
 | queer/she/they  | Male-ish  |
 | woman  | Man  |
 |   | msle  |
-Untuk data yang tidak memiliki kejelasan diantara dua kategori tersebut dilakukan pemisahan data untuk tidak diambil sebagai bahan miniriset. Berikut adalah kategori yang tidak digunakan.
+
+<br>Untuk data yang tidak memiliki kejelasan diantara dua kategori tersebut dilakukan pemisahan data untuk tidak diambil sebagai bahan miniriset. Berikut adalah kategori yang tidak digunakan.
 1. Genderqueer
 2. Nah
 3. non binary
