@@ -148,11 +148,13 @@ Karena pada data tersebut masih tercampur antara tech company dan non-tech compa
 4. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan terapi pengobatan](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Treatment.pdf)
 5. [Statistik pekerja bidang teknologi di United States yang mengalami gangguan mental berdasarkan umur](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/Data%20Visualization/Mental%20Health%20on%20Tech%20Workplaces%20-%20Age.pdf)
 
-# Modelling
+# Modelling 
 ![Schedule](https://img.shields.io/badge/Schedule-7%20Desember%202022-green)
+Modelling data dapat dilihat pada link berikut [Analisis pengaruh pemberian perawatan kesehatan mental pada pekerja industri teknologi terhadap kesehatan mental meenggunakan algoritma naive bayes](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/AnalisisPengaruhPemberianPerawatanKesehatanMentalPadaPekerjaDiIndustriTeknologiTerhadapKesehatanMentalMenggunakanAlgoritmaNaiveaBayes.ipynb)
 
 # Modelling Evaluation
 ![Schedule](https://img.shields.io/badge/Schedule-14%20Desember%202022-green)
+Modelling evaluation dapat dilihat pada link berikut [Analisis pengaruh pemberian perawatan kesehatan mental pada pekerja industri teknologi terhadap kesehatan mental meenggunakan algoritma naive bayes](https://github.com/imamfirdaus-if/Mental-Health-on-Tech-Workplaces/blob/main/AnalisisPengaruhPemberianPerawatanKesehatanMentalPadaPekerjaDiIndustriTeknologiTerhadapKesehatanMentalMenggunakanAlgoritmaNaiveaBayes.ipynb)
 
 # Dashboard
 ![Schedule](https://img.shields.io/badge/Schedule-21%20Desember%202022-green)
