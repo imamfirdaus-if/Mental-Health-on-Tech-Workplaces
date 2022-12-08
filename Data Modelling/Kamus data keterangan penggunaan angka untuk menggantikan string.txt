@@ -1,0 +1,28 @@
+Kamus data keterangan penggunaan angka untuk menggantikan string
+
+1 male
+2 female
+3 no
+4 yes
+5 Don't know
+6 Not sure
+7 maybe
+8 some of them
+9 sometimes
+10 never
+11 rarely
+12 often
+13 very easy
+14 somewhat easy
+15 very difficult
+16 1-5
+17 6-25
+18 26-100
+19 100-500
+20 500-1000
+21 More than 1000
+22 very easy
+23 somewhat easy
+24 very difficult
+25 somewhat difficult
+26 NA
