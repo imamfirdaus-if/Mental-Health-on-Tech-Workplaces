@@ -14,6 +14,9 @@
 
 [![1197050051](https://img.shields.io/badge/051-Imam%20Firdaus-blue)](https://github.com/imamfirdaus-if) [![1197050049](https://img.shields.io/badge/049-Ifany%20Dewi%20Tustianti-blue)](https://github.com/Tustiantiifany) [![1197050085](https://img.shields.io/badge/085-M%20Farhan%20F%20U-blue)](https://github.com/inipunyaku) [![1197050119](https://img.shields.io/badge/119-Riza%20Fajar-blue)](https://github.com/rizafajar7) [![1197050079](https://img.shields.io/badge/079-M%20Rizki%20Isa%20D-blue)](https://github.com/rizkiisa21)
 
+<br>
+[![Teknik Informatika](https://img.shields.io/badge/Teknik%20Informatika-blue)](http://if.uinsgd.ac.id/) [![UIN Sunan Gunung Djati Bandung](https://img.shields.io/badge/UIN%20Sunan%20Gunung%20Djati%20Bandung-blue)](https://uinsgd.ac.id)
+
 </div>
 
 # Business Understanding
