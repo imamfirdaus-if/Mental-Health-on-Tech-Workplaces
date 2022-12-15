@@ -2,7 +2,6 @@
 
 # Our Team
 ![Teams](https://img.shields.io/badge/Our%20Team-Team%203-blue)
-[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/)
 <div align='center'>
 
 <img src="Assets/ImamFirdaus.png" width="128"/>
