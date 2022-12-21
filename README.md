@@ -160,3 +160,4 @@ Modelling evaluation dapat dilihat pada link berikut [Analisis pengaruh pemberia
 
 # Dashboard
 ![Schedule](https://img.shields.io/badge/Schedule-21%20Desember%202022-green)
+Dashboard Web dapat dilihat pada link berikut [Dashoard](https://inipunyaku.github.io/chart/)
