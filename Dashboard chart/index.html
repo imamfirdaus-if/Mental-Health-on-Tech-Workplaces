@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>PanelSnap - menu demo</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
+
+    <script src="./assets/panelsnap.js" defer></script>
+    <script>
+        var menu, menuItems, panelSnapInstance;
+
+        document.addEventListener("DOMContentLoaded", function () {
+            menu = document.querySelector('.menu');
+            menuItems = menu.querySelectorAll('button');
+
+            panelSnapInstance = new PanelSnap();
+            panelSnapInstance.on('activatePanel', activateMenuItem);
+
+            menuItems.forEach(function (menuItem) {
+                menuItem.addEventListener('click', onButtonClick);
+            })
+        });
+
+        function activateMenuItem(panel) {
+            menuItems.forEach(function (menuItem) {
+                menuItem.classList.remove('active');
+            });
+
+            var panelName = panel.getAttribute('data-panel')
+            var menuItem = menu.querySelector('button[data-panel="' + panelName + '"]');
+            menuItem.classList.add('active');
+        }
+
+        function onButtonClick(e) {
+            var panelName = e.target.getAttribute('data-panel')
+            var panel = document.querySelector('section[data-panel="' + panelName + '"]');
+            panelSnapInstance.snapToPanel(panel);
+        }
+    </script>
+
+    <style>
+        section:nth-child(2) {
+            min-height: calc(100vh + 200px);
+        }
+
+        .menu {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+            text-align: center;
+            z-index: 1;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+
+        .menu li+li button {
+            margin-left: 10px;
+        }
+
+        button {
+            background: white;
+            font: inherit;
+            border: none;
+            padding: 4px 10px;
+            cursor: pointer;
+        }
+
+        button.active {
+            background: #65647C;
+            color: white;
+        }
+
+        #first {
+            background-size: cover;
+            background-position: center;
+            color: white;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url('https://assets.indozone.news/do_692x516/content/2022/02/05/lNsRm4r/kenali-faktor-risiko-penyebab-depresi-di-tempat-kerja-termasuk-diremehkan-atasan97_700.jpg')
+        }
+        #first > h1{
+            text-align: center;
+            margin-top: 12rem;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+
+        }
+        .content > .left{
+            background-color: #65647C;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            width: 40%;
+            /* padding-left: 10%; */
+            height: 780px;
+            justify-content: center;
+        }
+        .content > .right{
+            /* padding-right: 10%; */
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            height: 780px;
+            display: flex;
+            width: 60%;
+        }
+        #gender > .left {
+            background-color: #fcb3df;
+            height: 1000px;
+            width: 24%;
+
+        }
+
+        #gender > .right {
+            width: 76%;
+
+            color: white;
+            height: 1000px;
+            background-color: #a2d3fc;
+        }
+        .content:nth-child(4){
+            flex-direction: row-reverse;
+        }
+        .content:nth-child(6){
+            flex-direction: row-reverse;
+        }
+        .chart{
+            width:70%;
+        }
+    </style>
+</head>
+
+<body>
+    <section data-panel="first" id="first">
+
+        <h1>Mental Health <br>on<br> Tech Workplaces</h1>
+
+    </section>
+    <section data-panel="second" id="gender" class="content">
+        <div class="left">
+            <img src="./assets/female.png" alt="" width="80px">
+            <p><b>24%</b></p>
+        </div>
+        <div class="right">
+            <img src="./assets/male.png" alt="" width="80px">
+            <p><b>76%</b></p>
+        </div>
+    </section>
+    <section data-panel="third" id="third" class="content">
+        <div class="left">
+            <h3>pengaruh kesehatan mental <br>terhadap <br>keefektifan bekerja </h3>
+        </div>
+        <div class="right">
+            <div class="chart">
+            <canvas id="pengaruh-chart" width="100" height="70"></canvas>
+        </div>
+    </div>
+    </section>
+
+    <section data-panel="fourth" class="content">
+        <div class="left">
+            <h3>Apakah pekerja dibidang teknologi mendapatkan terapi pengobatan</h3>
+        </div>
+        <div class="right">
+            <div class="chart">
+            <canvas id="treatment-chart" width="100" height="70"></canvas>
+        </div>
+        </div>
+    </section>
+    <section data-panel="sixth" class="content">
+        <div class="left">
+            <h3>Perbandingan Usia </h3>
+        </div>
+        <div class="right">
+            <div class="chart">
+            <canvas id="Age-chart" width="100" height="70"></canvas>
+        </div>
+        </div>
+    </section>
+
+    <section data-panel="fiveth" class="content">
+        <div class="left">
+            <h3>Perbadingan jumlah perusahaan<br> yang menyediakan layanan kesehatan</h3>
+        </div>
+        <div class="right">
+            <div class="chart">
+            <canvas id="conseuling-chart" width="100" height="70"></canvas>
+        </div>
+        </div>
+    </section>
+
+   
+    <ul class="menu">
+        <li>
+            <button data-panel="first">Home</button>
+        </li>
+        <li>
+            <button data-panel="second">Gender Comparation</button>
+        </li>
+        <li>
+            <button data-panel="third">work Inference</button>
+        </li>
+        <li>
+            <button data-panel="fourth">Treatment Comparation</button>
+        </li>
+        <li>
+            <button data-panel="sixth">Age comparison</button>
+        </li>
+        <li>
+            <button data-panel="fiveth">Mental Counseling</button>
+        </li>
+
+    </ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+<script>
+    new Chart(document.getElementById('pengaruh-chart'), {
+        type: 'doughnut',
+        data: {
+          labels: [
+            'Never',
+            'Often',
+            'Rarely',
+            'Sometimes',
+          ],
+          datasets: [
+            {
+              label: 'Pengaruh Kesehatan Mental terhadap Keefektifan Kerja',
+              backgroundColor: [
+                '#de425b',
+                '#488f31',
+                '#9fc08f',
+                '#f09fa2',
+              ],
+              data: [99, 62, 87, 242],
+            },
+          ],
+        },
+        options: {
+          
+        },
+      });
+
+      // Treatment Chart 
+      new Chart(document.getElementById('treatment-chart'), {
+        type: 'pie',
+        data: {
+          labels: [
+            'No',
+            'Yes',
+          ],
+          datasets: [
+            {
+              label: 'Treatment',
+              backgroundColor: [
+                '#de425b',
+                '#488f31',
+              ],
+              data: [270, 331],
+            },
+          ],
+        },
+        options: {
+          
+        },
+      });
+
+
+       // Age Chart 
+       new Chart(document.getElementById('Age-chart'), {
+        type: 'bar',
+        data: {
+          labels: [
+            '18',
+            '19',
+            '20',
+            '21',
+            '22',
+            '23',
+            '24',
+            '25',
+            '26',
+            '27',
+            '28',
+            '29',
+            '30',
+            '31',
+            '32',
+            '33',
+            '34',
+            '35',
+            '35',
+            '36',
+            '37',
+            '38',
+            '39',
+            '40',
+            '41',
+            '42',
+            '43',
+            '44',
+            '45',
+            '46',
+            '47',
+            '48',
+            '49',
+            '50',
+            '51',
+            '53',
+            '54',
+            '55',
+            '57',
+            '58',
+            '60',
+            '62'
+
+          ],
+          datasets: [
+            {
+              label: 'Age',
+              backgroundColor: '#8B7E74',
+              data: [3, 1, 2,4, 9, 16, 21, 31, 31, 33, 26, 37, 28, 35, 41, 43, 28, 30, 23, 16,18, 16, 20, 13, 9, 15, 6, 7, 9, 2, 3, 3, 5,2,1,1,2,4, 3, 1, 2, 1],
+            },
+          ],
+        }
+      });
+
+
+      // Treatment Chart 
+      new Chart(document.getElementById('conseuling-chart'), {
+        type: 'horizontalBar',
+        data: {
+          labels: [
+            'No',
+            'Yes',
+            'dont know'
+          ],
+          datasets: [
+            {
+              label: 'Treatment',
+              backgroundColor: [
+                '#de425b',
+                '#488f31',
+                '#d3d3de'
+              ],
+              data: [97, 313 ,191, ],
+            },
+          ],
+        },
+        options: {
+            
+          
+        },
+      });
+
+      
+
+
+</script>
+
+</html>

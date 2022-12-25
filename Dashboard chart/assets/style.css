@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline-offset: 3px;
+}
+
+*:focus {
+  outline: 3px solid #000000;
+}
+
+body {
+  margin: 0;
+  color: #000000;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 24px;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  /* padding: 50px; */
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    /* padding: 25px; */
+  }
+}
+
+section:nth-child(2n) {
+  background: #edf7f5;
+}
+
+.panels section {
+  background: #d6e8e5;
+  min-height: 100%;
+}
+
+.panels section:nth-child(2) {
+  min-height: calc(100% + 200px);
+}
+
+.panels section:nth-child(2n) {
+  background: #c2d6d2;
+}
+
+.panels.horizontal {
+  display: flex;
+}
+
+.panels.horizontal section {
+  min-height: 0;
+  min-width: 100%;
+}
+
+.panels.horizontal section:nth-child(2) {
+  min-width: calc(100% + 200px);
+}
+
+section .explanation,
+section pre {
+  background: #edf7f5;
+}
+
+section:nth-child(2n) .explanation,
+section:nth-child(2n) pre {
+  background: #ffffff;
+}
+
+section.introduction {
+  align-items: center;
+  justify-content: center;
+}
+
+section.introduction .center {
+  text-align: center;
+}
+
+section.introduction .center p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+section.introduction .center p a {
+  word-break: break-all;
+}
+
+section.introduction .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+
+  text-align: center;
+  font-size: 60%;
+}
+
+section.introduction .bottom:after {
+  display: block;
+  margin: 1em auto 0;
+  height: 20px;
+  width: 20px;
+
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  content: '';
+
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+section.options,
+section.options_explained {
+  min-height: 100vh;
+  height: auto;
+}
+
+h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 300%;
+  margin: 0 0 25px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 200%;
+  }
+}
+
+h2 {
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.group {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -25px;
+}
+
+.group > * {
+  margin: 25px;
+}
+
+.panels,
+pre {
+  flex-grow: 99999;
+  flex-basis: 300px;
+}
+
+.panels {
+  overflow: auto;
+}
+
+.explanation,
+pre {
+  margin: 0;
+  overflow-x: auto;
+  padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .explanation,
+  pre {
+    padding: 25px;
+  }
+}
+
+.explanation dt,
+pre {
+  font-size: 80%;
+  font-family: Ubunutu Mono, monospace;
+}
+
+.explanation {
+  flex-grow: 1;
+}
+
+.explanation dt:after {
+  content: ':';
+}
+
+.explanation dd {
+  margin: 0 0 0 10px;
+}
+
+.explanation dd + dt {
+  margin: 25px 0 0;
+}
+
+.aside {
+  flex-grow: 1;
+  flex-basis: 300px;
+}
+
+.aside > *:first-child {
+  margin-top: 0;
+}
+
+.aside > *:last-child {
+  margin-bottom: 0;
+}
